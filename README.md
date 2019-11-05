@@ -1,4 +1,5 @@
 **Número da Lista**: Lista 4
+
 **Conteúdo da Disciplina** Dividir para Conquistar
 
 ## Alunos
