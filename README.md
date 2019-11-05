@@ -10,6 +10,13 @@
 ## Sobre 
 Nosso projeto se resume a comparar as velocidades de execução entre os algoritmos de ordenação MergeSort, SelectionSort, e Sort implementado no c++.
 
+## Screenshots
+![Funcionamento1](./basic.png)
+![Funcionamento2](./basic2.png)
+![Funcionamento3](./basic3.png)
+![Funcionamento4](./terminal1.png)
+![Funcionamento5](./terminal3.png)
+
 Installation
 ------------
 matplotlib-cpp
