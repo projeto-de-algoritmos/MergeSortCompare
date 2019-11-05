@@ -1,7 +1,5 @@
-# 1112 - Mice and Maze - UVa
-
-**Número da Lista**: Lista 2
-**Conteúdo da Disciplina** Algoritmo de Dijkstra
+**Número da Lista**: Lista 4
+**Conteúdo da Disciplina** Dividir para Conquistar
 
 ## Alunos
 |Matrícula | Aluno |
@@ -10,24 +8,19 @@
 | 15/0023375  |  Vitor Cardoso Xoteslem |
 
 ## Sobre 
-Nosso projeto se resume a resolver o problema 1112 da plataforma UVa de juizes online utilizando o algoritmo de Djikstra.
-![Tentativas](/img/miceandmaze.jpeg)
+Nosso projeto se resume a comparar as velocidades de execução entre os algoritmos de ordenação MergeSort, SelectionSort, e Sort implementado no c++.
 
-## Screenshots
-![Funcionamento1](/img/Interface1.png)
-![Funcionamento2](/img/Interface2.png)
-![Funcionamento3](/img/Interface3.png)
+Installation
+------------
+matplotlib-cpp
+==============
 
-## Instalação 
-**Linguagem**: C++
+matplotlib-cpp works by wrapping the popular python plotting library matplotlib. (matplotlib.org)
+This means you have to have a working python installation, including development headers.
+On Ubuntu:
+```
+    sudo apt-get install python-matplotlib python-numpy python2.7-dev
 
-Para compilar o programa somente é necessário o g++, caso não possua instale por meio do comando:
-```
-sudo apt-get install g++
-```
-Para rodar o programa use:
-```
-g++ Djikstra.cpp
-./a.out
-```
+    g++ MergeSortCompare.cpp -I/usr/include/python2.7 -lpython2.7
 
+```
